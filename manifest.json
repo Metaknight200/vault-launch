@@ -1,0 +1,20 @@
+{
+  "sources": {
+    "launcher": [
+      {
+        "id": "launcher",
+        "repo": "Metaknight200/vault-launch",            
+        "allowExt": ["exe", "msi", "zip"],       
+        "hints": { "keywords": ["win", "setup", "x64"] }
+      }
+    ],
+    "plugins": [
+      { "id": "image-enhancer", "repo": "Metaknight200/image-enhancer" },
+      { "id": "shader-tools",   "repo": "Metaknight200/shader-tools" }
+    ],
+    "apps": [
+      { "id": "awesome-app",    "repo": "Metaknight200/awesome-app" },
+      { "id": "pro-editor",     "repo": "Metaknight200/pro-editor", "hints": { "keywords": ["win"], "ext": "zip" } }
+    ]
+  }
+}
